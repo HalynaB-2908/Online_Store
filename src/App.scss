@@ -1,0 +1,79 @@
+.mainContent {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  width: 70%;
+  img {
+    max-width: 200px;
+    max-height: 300px;
+  }
+  aside {
+    width: 30%; 
+  margin-right: 20px;
+  border-right-style: solid;
+  border-right-width: 0.1px;
+  border-right-color: darkgrey;
+  a {
+    display: block;
+    padding-right: 10px;
+  }
+    }
+    div {
+      text-align: center;
+      margin: 20px;
+      a {
+        margin: 20px;
+    }
+    }
+}
+
+input, button {
+  margin: 5px;
+  padding: 5px;
+  border-radius: 0.3em;
+  border-style: solid;
+  border-width: 0.2px;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  font-family: sans-serif;
+  height: 70px;
+    max-height: 80px;
+    a {
+      margin: 20px;
+    }
+  }
+
+div {
+  text-align: justify;
+  margin: 20px;
+  a {
+    margin: 20px;
+}
+}
+
+p {
+  font-size:initial;
+  font-style: italic;
+}
+a:link {
+  text-decoration: none;
+  color: rgb(31, 32, 32);
+}
+
+a:visited {
+  text-decoration: none;
+  color: rgb(75, 75, 75);
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  text-decoration: underline;
+}
